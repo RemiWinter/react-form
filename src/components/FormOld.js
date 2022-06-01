@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 
 
-const Form = () => {
+const FormOld = () => {
 const initialValues = {
   username: "",
   email: "",
@@ -94,6 +94,46 @@ const validate = (field) => {
     obj.isValid = true;
   }
 
+// const formData = [
+//   {
+//   inputType: "text",
+//   id: "username",
+//   name: "username",
+//   placeholderSuffix:"username"
+//   },
+//   {
+//   inputType: "email",
+//   id: "email",
+//   name: "email",
+//   placeholderSuffix:"email"
+//   },
+//   {
+//   inputType: "password",
+//   id: "password",
+//   name: "password",
+//   placeholderSuffix:"password"
+//   },
+//   {
+//   inputType: "password",
+//   id: "confirm",
+//   name: "confirmPassword",
+//   placeholderSuffix:"password"
+//   },
+//   {
+//   inputType: "date",
+//   id: "dob",
+//   name: "dob",
+//   placeholderSuffix:"Date Of Birth"
+//   },
+//   {
+//   inputType: "file",
+//   id: "file",
+//   name: "file",
+//   placeholderSuffix:"file"
+//   }
+  
+// ]
+
 }
 
   return (
@@ -128,7 +168,7 @@ const validate = (field) => {
         </div>
         <div className="file">
           <label htmlFor="file">Upload Documents</label>
-          <input type="file" id="file"/>
+          <input type="file" id="file" name="file"/>
         </div>
 
         <input className="submit-btn btn" type="submit" value="Sign Up"/>
@@ -138,4 +178,4 @@ const validate = (field) => {
   )
 }
 
-export default Form
+export default FormOld

@@ -1,10 +1,11 @@
-import Form from "./components/Form";
+import FormNew from "./components/FormNew";
 
 
 function App() {
+  
   return (
     <div className="container">
-      <Form/>
+      <FormNew/>
     </div>
   );
 }
