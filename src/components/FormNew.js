@@ -10,42 +10,48 @@ const FormNew = () => {
       inputName: "Username",
       id: "username",
       name: "username",
-      placeholder:"Enter a username"
+      placeholder:"Enter a username",
+      inputData: "Username"
       },
       {
       inputType: "email",
       inputName: "Email",
       id: "email",
       name: "email",
-      placeholder:"Enter your email"
+      placeholder:"Enter your email",
+      inputData: "Email"
       },
       {
       inputType: "password",
       inputName: "Password",
       id: "password",
       name: "password",
-      placeholder:"Enter a password"
+      placeholder:"Enter a password",
+      inputData: "Password"
       },
       {
       inputType: "password",
       inputName: "Confirm Password",
       id: "confirm",
       name: "confirmPassword",
-      placeholder:"Confirm your password"
+      placeholder:"Confirm your password",
+      inputData: "Password"
       },
       {
       inputType: "date",
       inputName: "Date Of Birth",
       id: "dob",
       name: "dob",
-      placeholderSuffix:"Date Of Birth"
+      placeholderSuffix:"Date Of Birth",
+      inputData: "Date"
       },
       {
       inputType: "file",
       inputName: "Upload File",
       id: "file",
       name: "file",
-      placeholderSuffix:"File"
+      placeholderSuffix:"File",
+      inputData: "File"
       }
     ]
   )
